@@ -175,7 +175,7 @@ public abstract class Effect extends AsyncTask<Object, Object, Object>{
 	public void halfRun(int interval, int count){
 		int[][] colors = {{Color.YELLOW, Color.BLUE,Color.RED, Color.GREEN},{Color.RED, Color.GREEN,Color.YELLOW, Color.BLUE} };
 		
-		for(int k = 0; k < count; k++){
+		for(int k = 0; k < 2; k++){
 			int[] total = new int[nolights];
 			int half = total.length/2;
 			for(int i = 0; i < half; ++i){
